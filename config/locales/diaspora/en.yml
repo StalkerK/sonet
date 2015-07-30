@@ -95,6 +95,35 @@ en:
     post_not_public_or_not_exist: "The post you are trying to view is not public, or does not exist!"
     login_try_again: "Please <a href='%{login_link}'>login</a> and try again."
 
+  home:
+     stat:
+      week: "Week"
+      2weeks: "2 weeks"
+      month: "Month"
+      daily: "Daily"
+      usage_statistic: "Usage statistics"
+      go: "Go"
+      display_results: "Displaying results from the <b>%{segment}</b> segment"
+      posts:
+        zero: "%{count} posts"
+        one: "%{count} post"
+        other: "%{count} posts"
+      comments:
+        zero: "%{count} comments"
+        one: "%{count} comment"
+        other: "%{count} comments"
+      shares:
+        zero: "%{count} shares"
+        one: "%{count} share"
+        other: "%{count} shares"
+      users:
+        zero: "%{count} users"
+        one: "%{count} user"
+        other: "%{count} users"
+      current_segment: "The current segment is averaging <b>%{post_yest}</b> posts per user, from <b>%{post_day}</b>"
+      50_most: "50 most popular tags"
+      tag_name: "Tag name: <b>%{name_tag}</b> Count: <b>%{count_tag}</b>"
+
   admins:
     admin_bar:
       pages: "Pages"
