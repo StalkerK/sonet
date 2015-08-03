@@ -749,7 +749,7 @@ ml:
       your_photo: "താങ്കളുടെ ചിത്രം"
       your_private_profile: "താങ്കളുടെ സ്വകാര്യ പ്രൊഫൈല്‍ "
       your_public_profile: "താങ്കളുടെ പൊതു പ്രൊഫൈല്‍ "
-      your_tags: "Describe yourself in 5 words"
+      your_tags: "Direction of your activity"
       your_tags_placeholder: "like #movies #kittens #travel #teacher #newyork"
     update:
       failed: "പ്രൊഫൈല്‍ തിരുത്തുന്നത് പരാജയപ്പെട്ടിരിക്കുന്നു."

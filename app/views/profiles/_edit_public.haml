@@ -62,6 +62,55 @@
 
 = text_field_tag 'profile[tag_string]', "", placeholder: t('profiles.edit.your_tags_placeholder'),class: "form-control"
 
+/= select_tag 'active_id', "", :multiple => true, :size => 5, class: 'form-control'
+.row
+
+  .col-md-6
+    
+    .small-horizontal-spacer
+    =label_tag '#Арт-терапевты'
+    = radio_button_tag 'profile[tag_string]', "#Арт-терапевты"
+    .small-horizontal-spacer  
+    = label_tag '#Бодинамисты'
+    = radio_button_tag 'profile[tag_string]', "#Бодинамисты"
+    .small-horizontal-spacer 
+    = label_tag '#Гештальт-терапевты'
+    = radio_button_tag 'profile[tag_string]', "#Гештальт-терапевты"
+    .small-horizontal-spacer
+    = label_tag '#Когнитивно-бихевиоральные психотерапевты'
+    = radio_button_tag 'profile[tag_string]', "#Когнитивно-бихевиоральные психотерапевты"
+    .small-horizontal-spacer
+    = label_tag '#Психоаналитики'
+    = radio_button_tag 'profile[tag_string]', "#Психоаналитики"
+    .small-horizontal-spacer
+    = label_tag '#Психодраматерапевты'
+    = radio_button_tag 'profile[tag_string]', "#Психодраматерапевты"
+    .small-horizontal-spacer
+    = label_tag '#Системные расстановщики'
+    = radio_button_tag 'profile[tag_string]', "#Системные расстановщики"
+  .col-md-6
+    .small-horizontal-spacer
+    = label_tag '#Системные семейные терапевты'
+    = radio_button_tag 'profile[tag_string]', "#Системные семейные терапевты"
+    .small-horizontal-spacer
+    = label_tag '#Телесно-ориентированные психотерапевты'
+    = radio_button_tag 'profile[tag_string]', "#Телесно-ориентированные психотерапевты"
+    .small-horizontal-spacer
+    = label_tag '#Экзистенциальные психотерапевты'
+    = radio_button_tag 'profile[tag_string]', "#Экзистенциальные психотерапевты"
+    .small-horizontal-spacer  
+    = label_tag '#Другие психотерапевты'
+    = radio_button_tag 'profile[tag_string]', "#Другие психотерапевты"
+    .small-horizontal-spacer
+    = label_tag '#Психологи'
+    = radio_button_tag 'profile[tag_string]', "#Психологи"
+    .small-horizontal-spacer
+    = label_tag '#Студенты-психологи'
+    = radio_button_tag 'profile[tag_string]', "#Студенты-психологи"
+    .small-horizontal-spacer
+    = label_tag '#Клиенты'
+    = radio_button_tag 'profile[tag_string]', "#Клиенты"
+
 .small-horizontal-spacer
 
 %h4= t('profiles.edit.your_photo')

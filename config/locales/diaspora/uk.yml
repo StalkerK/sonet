@@ -996,7 +996,7 @@ uk:
       your_photo: "Ваша світлина"
       your_private_profile: "Ваш особистий профіль"
       your_public_profile: "Ваш публічний профіль"
-      your_tags: "Опишіть себе в п'яти словах"
+      your_tags: "Ваш напрямок діяльності"
       your_tags_placeholder: "наприклад, #кіно #кошенята #подорожі #вчитель #київ"
     update:
       failed: "Не вдалося оновити профіль"
