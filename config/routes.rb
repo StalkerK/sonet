@@ -248,6 +248,9 @@ Diaspora::Application.routes.draw do
 
   # Relay
   get ".well-known/x-social-relay" => "social_relay#well_known"
+  
+  # public stats
+  match 'stat', to: 'home#stat', via: 'get'
 
   # Startpage
   root :to => 'home#show'

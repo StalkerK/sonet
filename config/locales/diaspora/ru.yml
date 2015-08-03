@@ -51,6 +51,37 @@ ru:
             username:
               invalid: "не подходит. Можно использовать только буквы, цифры и знак подчеркивания."
               taken: "уже занято."
+
+  home:
+    stat:
+      2weeks: "2 недели"
+      50_most: "50 самых популярных меток"
+      comments:
+        few: "%{count} комментария"
+        many: "%{count} комментариев"
+        one: "%{count} комментарий"
+        other: "%{count} комментариев"
+        zero: "%{count} комментариев"
+      current_segment: "Текущий сегмент содержит в среднем <b>%{post_yest}</b> записей на пользователя, с <b>%{post_day}</b>"
+      daily: "Ежедневно"
+      display_results: "Показ результатов сегмента <b>%{segment}</b>"
+      go: "перейти"
+      month: "Месяц"
+      posts:
+        few: "%{count} записи"
+        many: "%{count} записей"
+        one: "%{count} запись"
+        other: "%{count} записей"
+        zero: "%{count} записей"
+      shares:
+        few: "%{count} поделившихся"
+        many: "%{count} поделившихся"
+        one: "%{count} поделившийся"
+        other: "%{count} поделившихся"
+        zero: "%{count} поделившихся"
+      tag_name: "Имя метки: <b>%{name_tag}</b> Число: <b>%{count_tag}</b>"
+
+
   admins:
     admin_bar:
       correlations: "Корреляции"
