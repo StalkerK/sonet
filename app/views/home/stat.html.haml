@@ -35,10 +35,10 @@
           - if name == :users
             - name = t('.users', :count => model[:yesterday])
 
-          .col-md-3
-            %h2{:style => 'font-weight:bold;'}
+          .col-md-3 
+            %h4{:style => 'font-weight:bold;'}
               = name.to_s
-            %h4
+            %h5
               = model[:day_before]
               %span.percent_change{:class => (model[:change] > 0 ? "green" : "red")}
                 = "(#{model[:change]}%)"

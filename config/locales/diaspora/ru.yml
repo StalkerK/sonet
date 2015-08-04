@@ -54,6 +54,8 @@ ru:
 
   home:
     stat:
+      usage_statistic: Cтатистика
+      week: "Неделя"
       2weeks: "2 недели"
       50_most: "50 самых популярных меток"
       comments:
@@ -94,6 +96,8 @@ ru:
     correlations:
       correlations_count: "Связь с числом входов:"
     stats:
+      usage_statistic: Cтатистика
+      week: "Неделя"
       2weeks: "2 недели"
       50_most: "50 самых популярных меток"
       comments:
@@ -1020,6 +1024,13 @@ ru:
   profile: "Профиль"
   profiles:
     edit:
+      basic: Мой профиль
+      extended: Мой расширенный профиль
+      extended_visibility_text: Видимость вашего расширенного профиля
+      limited: Ограниченный
+      public: Открытый
+      extended_hint: "Нажмите переключатель, чтобы установить расширенный обзор профиля. Открытый означает, что информация будет видна в интернете, ограниченный - увидить эту информацию смогут только те люди, с которыми вы поделитесь."
+      settings: Настройки профиля
       allow_search: "Разрешить искать вас в Диаспоре"
       edit_profile: "Редактировать профиль"
       first_name: "Имя"
@@ -1143,9 +1154,11 @@ ru:
       no_friends: "Не найдено друзей из Facebook."
       service_friends: "Друзья из %{service}"
     index:
+      title: "Управление связанными сервисами"
       disconnect: "отключить"
       edit_services: "Редактировать сервисы"
       logged_in_as: "Вы вошли как"
+      no_services_available: "Нет сервисов доступных на этом поде"
       really_disconnect: "отключить %{service}?"
       services_explanation: "Подключение сервисов позволяет публиковать на них записи написанные в Диаспоре."
     inviter:
@@ -1365,6 +1378,7 @@ ru:
       change: "Изменить"
       change_email: "Изменить адрес"
       change_language: "Изменить язык"
+      change_color_theme: Изменить цвет тема
       change_password: "Изменить пароль"
       character_minimum_expl: "не менее шести символов"
       close_account:
@@ -1396,7 +1410,7 @@ ru:
       new_password: "Новый пароль"
       private_message: "вы получили личное сообщение"
       receive_email_notifications: "Получать уведомление по электронной почте, если:"
-      request_export: "Запросить данные из моего профиля"
+      request_export: "Запросить данные с профиля"
       request_export_photos: "Запросить мои фотографии"
       request_export_photos_update: "Обновить мои фотографии"
       request_export_update: "Обновить данные из моего профиля"
