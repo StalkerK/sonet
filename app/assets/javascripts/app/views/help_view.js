@@ -15,13 +15,33 @@ app.views.Help = app.views.StaticContentView.extend({
 
   initialize : function() {
     this.GETTING_HELP_SUBS = {
-      getting_started_a: { tutorial_series: this.linkHtml("http://diasporafoundation.org/getting_started/sign_up", Diaspora.I18n.t( 'getting_started_tutorial' )) },
-      get_support_a_website: { link: this.linkHtml("https://diasporafoundation.org/", Diaspora.I18n.t( 'foundation_website' ))},
-      get_support_a_tutorials: { tutorials: this.linkHtml("https://diasporafoundation.org/tutorials", Diaspora.I18n.t( 'tutorials' ))},
-      get_support_a_wiki: { link: this.linkHtml("https://wiki.diasporafoundation.org/Special:Search", Diaspora.I18n.t( 'wiki' ))},
-      get_support_a_irc: { irc: this.linkHtml("https://wiki.diasporafoundation.org/How_We_Communicate#IRC", Diaspora.I18n.t( 'irc' ))},
-      get_support_a_faq: { faq: this.linkHtml("https://wiki.diasporafoundation.org/FAQ_for_users", Diaspora.I18n.t( 'faq' ))},
-      get_support_a_hashtag: { question: this.linkHtml("/tags/question", "#question")}
+      getting_started_a1: {},
+      getting_started_a2: {},
+      getting_started_a3: {},
+      getting_started_a4: {},
+      getting_started_a5: {},
+      getting_started_a6: {},
+      getting_started_a7: {},
+      getting_started_a8: {},
+      getting_started_a9: {},
+      getting_started_a10: {},
+      getting_started_a11: {},
+      getting_started_a12: {},
+      get_art_therapists: {},
+      get_bodinamist: {},
+      get_gestalt: {},
+      get_kbp: {},
+      get_psychoanalyst: {},
+      get_psihodrama: {},
+      get_systemcon: {},
+      get_familyter: {},
+      get_bodyter: {},
+      get_existential: {},
+      get_other: {},
+      get_psychologists: {},
+      get_students: {},
+      get_clients: {}
+
 	};
 
     this.POSTS_AND_POSTING_SUBS = {
